@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
 <!DOCTYPE html>
@@ -23,8 +23,7 @@
   </head>
 
   <body>
-
-    <!-- Navigation -->
+<!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="container">
         <a class="navbar-brand" href="index.html">UM ENGLISH</a>
@@ -99,7 +98,8 @@
         </div>
       </div>
     </nav>
-
+<%-- <jsp:include page="/include/header.jsp/"> --%>
+  
     <header>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
