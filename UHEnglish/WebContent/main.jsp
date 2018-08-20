@@ -80,7 +80,7 @@
                 커뮤니티
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="blog-home-1.html">공지사항</a>
+                <a class="dropdown-item" href="<%=request.getContextPath()%>/board/boardList.jsp">공지사항</a>
                 <a class="dropdown-item" href="blog-home-2.html">무료 레벨테스트</a>
                 <a class="dropdown-item" href="blog-post.html">FAQ</a>
                 <a class="dropdown-item" href="blog-home-1.html">Q%A</a>
