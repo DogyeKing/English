@@ -25,6 +25,7 @@
   <body>
   
 <jsp:include page="/include/header.jsp"/>
+<br>
   
     <header>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
