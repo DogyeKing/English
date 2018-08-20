@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<body>
+
   <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">UM ENGLISH</a>
+        <a class="navbar-brand" href="<%=request.getContextPath()%>/index.jsp">UM ENGLISH</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -59,7 +59,7 @@
                 커뮤니티
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="blog-home-1.html">공지사항</a>
+                <a class="dropdown-item" href="<%=request.getContextPath()%>/board/boardList.jsp">공지사항</a>
                 <a class="dropdown-item" href="blog-home-2.html">무료 레벨테스트</a>
                 <a class="dropdown-item" href="blog-post.html">FAQ</a>
                 <a class="dropdown-item" href="blog-home-1.html">Q%A</a>

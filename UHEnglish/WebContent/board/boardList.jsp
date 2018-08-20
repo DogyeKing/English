@@ -25,7 +25,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form name="w_form" method="POST" action="<%=request.getContextPath()%>/board?cmd=board_list" >
 <div class="container">
 	<div class="row"> <!-- 12개의 칼럼 -->
 		<div class="col-lg-2"></div>
@@ -64,5 +63,4 @@
 		<div class="col-lg-2"></div>
 	</div>
 </div>
-</form>
 </html>

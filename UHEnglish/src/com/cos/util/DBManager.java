@@ -16,6 +16,7 @@ public class DBManager {
 			Context envContext  = (Context)initContext.lookup("java:/comp/env");
 			DataSource ds = (DataSource)envContext.lookup("jdbc/TestDB");
 			conn = ds.getConnection();
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
