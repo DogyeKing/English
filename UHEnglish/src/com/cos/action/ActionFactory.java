@@ -1,6 +1,7 @@
 package com.cos.action;
 
 import com.cos.controller.board.BoardListAction;
+import com.cos.controller.board.BoardViewAction;
 import com.cos.controller.board.BoardWriteAction;
 
 public class ActionFactory {
@@ -19,6 +20,8 @@ public class ActionFactory {
 			return new BoardListAction();
 		}else if(cmd.equals("board_write")) {
 			return new BoardWriteAction();
+		}else if(cmd.equals("board_view")) {
+				return new BoardViewAction();
 		}
 		return null;
 	}

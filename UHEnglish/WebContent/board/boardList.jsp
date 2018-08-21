@@ -5,14 +5,22 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<!-- Bootstrap core CSS -->
+<link href="<%=request.getContextPath()%>/css/bootstrap.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="<%=request.getContextPath()%>/css/blog-home.css" rel="stylesheet">
+<!-- Bootstrap core JavaScript -->
+<script src="<%=request.getContextPath()%>/js/jquery.min.js"></script>
+<script src="<%=request.getContextPath()%>/js/bootstrap.bundle.min.js"></script>
+
 
 <%-- <c:if test="${empty list}"> <!-- empty는 null의 의미이다. -->
    <%
       RequestDispatcher dis = request.getRequestDispatcher("board?cmd=board_list");
       dis.forward(request, response);
    %>
-</c:if>
- --%>
+</c:if> --%>
+
 <!DOCTYPE>
 <html>
 <head>
@@ -25,6 +33,10 @@
 <title>Insert title here</title>
 </head>
 <body>
+
+<jsp:include page="/include/header.jsp" />
+
+
 <div class="container">
 	<div class="row"> <!-- 12개의 칼럼 -->
 		<div class="col-lg-2"></div>

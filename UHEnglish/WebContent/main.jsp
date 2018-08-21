@@ -25,7 +25,7 @@
   <body>
   
 <jsp:include page="/include/header.jsp"/>
-<br>
+<!-- <br> -->
   
     <header>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -204,9 +204,11 @@
       
       <hr>
             <!-- Features Section -->
+            <!-- iframe 460x300 -->
       <div class="row">
-               <div class="col-lg-6">
-          <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
+       <div class="col-lg-6">
+       <!--    <img class="img-fluid rounded" src="http://placehold.it/700x450" alt=""> -->
+     <iframe id="player" type="text/html" width="100%" height="100%" src="http://www.youtube.com/embed/GVWFGIyNswI" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe>
         </div>
         <div class="col-lg-6">
           <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
