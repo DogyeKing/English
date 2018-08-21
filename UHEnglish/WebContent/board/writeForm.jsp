@@ -6,11 +6,22 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 
+<!-- Bootstrap core CSS -->
+<link href="<%=request.getContextPath()%>/css/bootstrap.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="<%=request.getContextPath()%>/css/blog-home.css" rel="stylesheet">
+<!-- Bootstrap core JavaScript -->
+<%-- <script src="<%=request.getContextPath()%>/js/jquery.min.js"></script>
+<script src="<%=request.getContextPath()%>/js/bootstrap.bundle.min.js"></script> --%>
+
  <!-- Smart Editor -->
    <script type="text/javascript" src="<%=request.getContextPath()%>/editor/js/HuskyEZCreator.js" charset="utf-8"></script>
    <script type="text/javascript" src="<%=request.getContextPath()%>/editor/photo_uploader/plugin/hp_SE2M_AttachQuickPhoto.js" charset="utf-8"></script>
 </head>
 <body>
+
+  <jsp:include page="/include/header.jsp" />
+  
   <!-- Page Content -->
   <div class="container">
     <div class="row">
