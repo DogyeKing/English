@@ -16,6 +16,7 @@ public class DBManager {
 			Context envContext  = (Context)initContext.lookup("java:/comp/env");
 			DataSource ds = (DataSource)envContext.lookup("jdbc/TestDB");
 			conn = ds.getConnection();
+			conn.setAutoCommit(false);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -37,6 +38,23 @@ public class DBManager {
 		try {
 			pstmt.close();
 			conn.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void commit(Connection conn) {
+		try {
+			conn.commit();
+			System.out.println("commit success");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	public static void rollback(Connection conn) {
+		try {
+			conn.rollback();
+			System.out.println("rollback success");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
