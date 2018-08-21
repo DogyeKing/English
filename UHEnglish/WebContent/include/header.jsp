@@ -2,8 +2,8 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-
-
+<!-- 잠시 보류 -->
+<!-- 
     <div class="top-bar">
         <ul>
             <li>
@@ -11,7 +11,7 @@
                 <a href="/UHEnglish/member/joinForm.jsp">회원가입 롤백 어떻게 하냐</a>
             </li>
         </ul>
-    </div>
+    </div> -->
 
 	  <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-warning fixed-top">

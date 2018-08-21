@@ -13,8 +13,8 @@
 <!-- Custom styles for this template -->
 <link href="<%=request.getContextPath()%>/css/blog-home.css" rel="stylesheet">
 <!-- Bootstrap core JavaScript -->
-<script src="<%=request.getContextPath()%>/js/jquery.min.js"></script>
-<script src="<%=request.getContextPath()%>/js/bootstrap.bundle.min.js"></script>
+<%-- <script src="<%=request.getContextPath()%>/js/jquery.min.js"></script>
+<script src="<%=request.getContextPath()%>/js/bootstrap.bundle.min.js"></script> --%>
 </head>
 
 <body>
