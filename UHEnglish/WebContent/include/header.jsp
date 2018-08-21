@@ -3,17 +3,19 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
-  <!-- Navigation -->
-	<div class="top-bar">
-		<ul>
-			<li>
-				<a href="#">로그인</a>
-			</li>
-			<li>
-				<a href="#">회원가입</a>
-			</li>
-		</ul>
-	</div>
+
+    <div class="top-bar">
+        <ul>
+            <li>
+                <a href="#">로그인</a>
+            </li>
+            <li>
+                <a href="#">회원가입</a>
+            </li>
+        </ul>
+    </div>
+
+	  <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-warning fixed-top">
       <div class="container">
         <a class="navbar-brand" href="<%=request.getContextPath()%>/index.jsp">UM ENGLISH</a>

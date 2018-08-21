@@ -92,8 +92,8 @@ function jusoCallBack(roadFullAddr){
      		</div>
       </div>
 
-      <!-- SideBar Include -->
-		  <jsp:include page="/include/aside.jsp"/>
+     <%--  <!-- SideBar Include -->
+		  <jsp:include page="/include/aside.jsp"/> --%>
 		  	
     </div>
     <!-- /.row -->

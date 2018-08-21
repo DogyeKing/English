@@ -9,6 +9,7 @@
 <link href="<%=request.getContextPath()%>/css/bootstrap.css" rel="stylesheet">
 <!-- Custom styles for this template -->
 <link href="<%=request.getContextPath()%>/css/blog-home.css" rel="stylesheet">
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/custom.css">
 <!-- Bootstrap core JavaScript -->
 <script src="<%=request.getContextPath()%>/js/jquery.min.js"></script>
 <script src="<%=request.getContextPath()%>/js/bootstrap.bundle.min.js"></script>
@@ -26,8 +27,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<link rel="stylesheet" href="<%=request.getContextPath()%>/css/bootstrap.css">
-<link rel="stylesheet" href="<%=request.getContextPath()%>/css/custom.css">
+
+
 
 
 <title>Insert title here</title>
