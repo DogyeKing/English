@@ -8,11 +8,11 @@
 <!-- Bootstrap core CSS -->
 <link href="<%=request.getContextPath()%>/css/bootstrap.css" rel="stylesheet">
 <!-- Custom styles for this template -->
-<link href="<%=request.getContextPath()%>/css/blog-home.css" rel="stylesheet">
-<link rel="stylesheet" href="<%=request.getContextPath()%>/css/custom.css">
+<%-- <link href="<%=request.getContextPath()%>/css/blog-home.css" rel="stylesheet"> --%>
+<%-- <link rel="stylesheet" href="<%=request.getContextPath()%>/css/custom.css"> --%>
 <!-- Bootstrap core JavaScript -->
-<script src="<%=request.getContextPath()%>/js/jquery.min.js"></script>
-<script src="<%=request.getContextPath()%>/js/bootstrap.bundle.min.js"></script>
+<%-- <script src="<%=request.getContextPath()%>/js/jquery.min.js"></script>
+<script src="<%=request.getContextPath()%>/js/bootstrap.bundle.min.js"></script> --%>
 
 
 <%-- <c:if test="${empty list}"> <!-- empty는 null의 의미이다. -->
