@@ -36,6 +36,45 @@
 </head>
 <body>
 
+<<<<<<< HEAD
+<jsp:include page="/include/header.jsp" />
+
+
+<div class="container">
+	<div class="row"> <!-- 12개의 칼럼 -->
+		<div class="col-lg-2"></div>
+		<div class="col-lg-8">
+			<table class="table table-striped" style="border:1px solid #dddddd">
+				<thead>
+					<tr>
+						<th>번호</th>
+						<th>제목</th>
+						<th>작성자</th>
+						<th>작성일</th>
+						<th>조회</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+
+				<c:forEach var="item" items="${list}">
+					<tr>
+						<td>${board.num}</td>
+						<td>${board.title}</td>
+						<td>${board.id}</td>
+						<td>${board.writedate}</td>
+						<td>${board.readCount}</td>
+					</tr>
+				</c:forEach>		
+				</tbody>
+			</table>
+
+			<a class="btn btn-success" href="/UHEnglish/board/board.jsp?pageNum=" style="margin:2px">이전</a>
+
+			<a class="btn btn-success" href="/UHEnglish/board/board.jsp?pageNum=" style="margin:2px">다음</a>
+
+			<a class="btn btn-primary float-right" href="<%=request.getContextPath()%>/board/writeForm.jsp" style="margin:2px">글쓰기</a>
+=======
 
 <%
 response.sendRedirect("/board?cmd=board_list");
@@ -95,6 +134,7 @@ response.sendRedirect("/board?cmd=board_list");
 					style="margin: 2px">글쓰기</a>
 			</div>
 			<div class="col-lg-2"></div>
+>>>>>>> 5ca1aeef6331e451161047e63c57dcc386dcfc46
 		</div>
 	</div>
 </html>
