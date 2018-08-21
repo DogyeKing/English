@@ -67,9 +67,9 @@
 				</tbody>
 			</table>
 
-			<a class="btn btn-success" href="/BBS/board/board.jsp?pageNum=" style="margin:2px">이전</a>
+			<a class="btn btn-success" href="/UHEnglish/board/board.jsp?pageNum=" style="margin:2px">이전</a>
 
-			<a class="btn btn-success" href="/BBS/board/board.jsp?pageNum=" style="margin:2px">다음</a>
+			<a class="btn btn-success" href="/UHEnglish/board/board.jsp?pageNum=" style="margin:2px">다음</a>
 
 			<a class="btn btn-primary float-right" href="<%=request.getContextPath()%>/board/writeForm.jsp" style="margin:2px">글쓰기</a>
 		</div>
