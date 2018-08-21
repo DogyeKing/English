@@ -18,16 +18,19 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
+	
 
 
   </head>
 
   <body>
   
-<jsp:include page="/include/header.jsp"/>
-<br>
+
+    	<jsp:include page="/include/header.jsp"/>
   
     <header>
+    
+
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
