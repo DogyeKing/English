@@ -3,18 +3,17 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!-- 잠시 보류 -->
-<!-- 
-    <div class="top-bar">
+
+<div class="top-bar">
         <ul>
             <li>
                 <a href="#">로그인</a>
             </li>
             <li>
-                <a href="#">회원가입 롤백 어떻게 하냐</a>
+                <a href="#">회원가입 </a>
             </li>
         </ul>
-    </div> -->
-
+    </div>
 	  <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-warning fixed-top">
       <div class="container">
