@@ -18,29 +18,22 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-<<<<<<< HEAD
-	
-=======
-    
+
+
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 
->>>>>>> 67d8a44a7e1dbb7643963011ba70e2a7fdf6db82
 
 
   </head>
 
   <body>
   
-<<<<<<< HEAD
 
     	<jsp:include page="/include/header.jsp"/>
-=======
-<jsp:include page="/include/header.jsp"/>
 
->>>>>>> 67d8a44a7e1dbb7643963011ba70e2a7fdf6db82
-  
+
     <header>
     
 

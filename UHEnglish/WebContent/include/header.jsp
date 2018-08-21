@@ -7,15 +7,9 @@
 <div class="top-bar">
         <ul>
             <li>
-<<<<<<< HEAD
+
                 <a href="/UHEnglish/member/loginForm.jsp">로그인</a>           
                 <a href="/UHEnglish/member/joinForm.jsp">회원가입 롤백 어떻게 하냐</a>
-=======
-                <a href="#">로그인</a>
-            </li>
-            <li>
-                <a href="#">회원가입 </a>
->>>>>>> 5ca1aeef6331e451161047e63c57dcc386dcfc46
             </li>
         </ul>
     </div>
