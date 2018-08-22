@@ -169,7 +169,7 @@
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">수강신청젉차</a>
+                <a href="#">수강신청절차</a>
               </h4>
               <p class="card-text">엄잉글리쉬 서비스를 신청하는 간단한 절차안내입니다.</p>
             </div>
@@ -215,13 +215,15 @@
             <!-- Features Section -->
             <!-- iframe 460x300 -->
       <div class="row">
-               <div class="col-lg-6">
-       <!--    <img class="img-fluid rounded" src="http://placehold.it/700x450" alt=""> -->
-     <iframe id="player" type="text/html" width="560" height="350" src="http://www.youtube.com/embed/XLKTpo7M7iQ" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe>
-        </div>
+           
         <div class="col-lg-6">
-            <iframe id="player" type="text/html" width="560" height="350" src="http://www.youtube.com/embed/GVWFGIyNswI" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe>
+     	  <iframe id="player" type="text/html" width="560" height="350" src="http://www.youtube.com/embed/XLKTpo7M7iQ" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe>
         </div>
+    
+        <div class="col-lg-6">
+          <iframe id="player" type="text/html" width="560" height="350" src="http://www.youtube.com/embed/GVWFGIyNswI" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe>
+        </div>
+    
       </div>
       <!-- /.row -->
       
