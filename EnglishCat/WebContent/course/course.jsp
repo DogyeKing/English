@@ -9,14 +9,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Unicat project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/course.css">
-<link rel="stylesheet" type="text/css" href="styles/course_responsive.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/bootstrap4/bootstrap.min.css">
+<link href="<%=request.getContextPath()%>/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="<%=request.getContextPath()%>/plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/course.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/course_responsive.css">
 </head>
 <body>
 
@@ -33,8 +33,8 @@
 					<div class="col">
 						<div class="breadcrumbs">
 							<ul>
-								<li><a href="index.jsp">Home</a></li>
-								<li><a href="courses.jsp">Courses</a></li>
+								<li><a href="<%=request.getContextPath()%>/index.jsp">Home</a></li>
+								<li><a href="<%=request.getContextPath()%>/courses.jsp">Courses</a></li>
 								<li>Course Details</li>
 							</ul>
 						</div>
@@ -78,7 +78,7 @@
 						</div>
 
 						<!-- Course Image -->
-						<div class="course_image"><img src="images/course_image.jpg" alt=""></div>
+						<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_image.jpg" alt=""></div>
 
 						<!-- Course Tabs -->
 						<div class="course_tabs_container">
@@ -282,7 +282,7 @@
 										<ul class="comments_list">
 											<li>
 												<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
-													<div class="comment_image"><div><img src="images/comment_1.jpg" alt=""></div></div>
+													<div class="comment_image"><div><img src="<%=request.getContextPath()%>/images/comment_1.jpg" alt=""></div></div>
 													<div class="comment_content">
 														<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
 															<div class="comment_author"><a href="#">Milley Cyrus</a></div>
@@ -301,7 +301,7 @@
 												<ul>
 													<li>
 														<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
-															<div class="comment_image"><div><img src="images/comment_2.jpg" alt=""></div></div>
+															<div class="comment_image"><div><img src="<%=request.getContextPath()%>/images/comment_2.jpg" alt=""></div></div>
 															<div class="comment_content">
 																<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
 																	<div class="comment_author"><a href="#">John Tyler</a></div>
@@ -322,7 +322,7 @@
 											</li>
 											<li>
 												<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
-													<div class="comment_image"><div><img src="images/comment_3.jpg" alt=""></div></div>
+													<div class="comment_image"><div><img src="<%=request.getContextPath()%>/images/comment_3.jpg" alt=""></div></div>
 													<div class="comment_content">
 														<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
 															<div class="comment_author"><a href="#">Milley Cyrus</a></div>
@@ -404,7 +404,7 @@
 							<div class="sidebar_section_title">Teacher</div>
 							<div class="sidebar_teacher">
 								<div class="teacher_title_container d-flex flex-row align-items-center justify-content-start">
-									<div class="teacher_image"><img src="images/teacher.jpg" alt=""></div>
+									<div class="teacher_image"><img src="<%=request.getContextPath()%>/images/teacher.jpg" alt=""></div>
 									<div class="teacher_title">
 										<div class="teacher_name"><a href="#">Jacke Masito</a></div>
 										<div class="teacher_position">Marketing & Management</div>
@@ -440,27 +440,27 @@
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_1.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_1.jpg" alt=""></div></div>
 									<div class="latest_content">
-										<div class="latest_title"><a href="course.jsp">How to Design a Logo a Beginners Course</a></div>
+										<div class="latest_title"><a href="<%=request.getContextPath()%>/course.jsp">How to Design a Logo a Beginners Course</a></div>
 										<div class="latest_price">Free</div>
 									</div>
 								</div>
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_2.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_2.jpg" alt=""></div></div>
 									<div class="latest_content">
-										<div class="latest_title"><a href="course.jsp">Photography for Beginners Masterclass</a></div>
+										<div class="latest_title"><a href="<%=request.getContextPath()%>/course.jsp">Photography for Beginners Masterclass</a></div>
 										<div class="latest_price">$170</div>
 									</div>
 								</div>
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_3.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_3.jpg" alt=""></div></div>
 									<div class="latest_content">
-										<div class="latest_title"><a href="course.jsp">The Secrets of Body Language</a></div>
+										<div class="latest_title"><a href="<%=request.getContextPath()%>/course.jsp">The Secrets of Body Language</a></div>
 										<div class="latest_price">$220</div>
 									</div>
 								</div>
@@ -477,7 +477,7 @@
 	<!-- Newsletter -->
 
 	<div class="newsletter">
-		<div class="newsletter_background" style="background-image:url(images/newsletter_background.jpg)"></div>
+		<div class="newsletter_background" style="background-image:url(<%=request.getContextPath()%>/images/newsletter_background.jpg)"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -508,12 +508,12 @@
 <jsp:include page="/include/footer.jsp"></jsp:include>
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
-<script src="js/course.js"></script>
+<script src="<%=request.getContextPath()%>/js/jquery-3.2.1.min.js"></script>
+<script src="<%=request.getContextPath()%>/styles/bootstrap4/popper.js"></script>
+<script src="<%=request.getContextPath()%>/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/easing/easing.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="<%=request.getContextPath()%>/js/course.js"></script>
 </body>
