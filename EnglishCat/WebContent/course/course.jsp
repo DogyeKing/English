@@ -23,7 +23,6 @@
 <div class="super_container">
 
 <jsp:include page="/include/header.jsp"></jsp:include>
-	
 	<!-- Home -->
 
 	<div class="home">
@@ -33,8 +32,8 @@
 					<div class="col">
 						<div class="breadcrumbs">
 							<ul>
-								<li><a href="index.jsp">Home</a></li>
-								<li><a href="courses.jsp">Courses</a></li>
+								<li><a href="<%=request.getContextPath()%>/index.jsp">Home</a></li>
+								<li><a href="<%=request.getContextPath()%>/courses.jsp">Courses</a></li>
 								<li>Course Details</li>
 							</ul>
 						</div>
@@ -78,7 +77,7 @@
 						</div>
 
 						<!-- Course Image -->
-						<div class="course_image"><img src="images/course_image.jpg" alt=""></div>
+						<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_image.jpg" alt=""></div>
 
 						<!-- Course Tabs -->
 						<div class="course_tabs_container">
@@ -282,7 +281,7 @@
 										<ul class="comments_list">
 											<li>
 												<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
-													<div class="comment_image"><div><img src="images/comment_1.jpg" alt=""></div></div>
+													<div class="comment_image"><div><img src="<%=request.getContextPath()%>/images/comment_1.jpg" alt=""></div></div>
 													<div class="comment_content">
 														<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
 															<div class="comment_author"><a href="#">Milley Cyrus</a></div>
@@ -301,7 +300,7 @@
 												<ul>
 													<li>
 														<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
-															<div class="comment_image"><div><img src="images/comment_2.jpg" alt=""></div></div>
+															<div class="comment_image"><div><img src="<%=request.getContextPath()%>/images/comment_2.jpg" alt=""></div></div>
 															<div class="comment_content">
 																<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
 																	<div class="comment_author"><a href="#">John Tyler</a></div>
@@ -322,7 +321,7 @@
 											</li>
 											<li>
 												<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
-													<div class="comment_image"><div><img src="images/comment_3.jpg" alt=""></div></div>
+													<div class="comment_image"><div><img src="<%=request.getContextPath()%>/images/comment_3.jpg" alt=""></div></div>
 													<div class="comment_content">
 														<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
 															<div class="comment_author"><a href="#">Milley Cyrus</a></div>
@@ -404,7 +403,7 @@
 							<div class="sidebar_section_title">Teacher</div>
 							<div class="sidebar_teacher">
 								<div class="teacher_title_container d-flex flex-row align-items-center justify-content-start">
-									<div class="teacher_image"><img src="images/teacher.jpg" alt=""></div>
+									<div class="teacher_image"><img src="<%=request.getContextPath()%>/images/teacher.jpg" alt=""></div>
 									<div class="teacher_title">
 										<div class="teacher_name"><a href="#">Jacke Masito</a></div>
 										<div class="teacher_position">Marketing & Management</div>
@@ -440,27 +439,27 @@
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_1.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_1.jpg" alt=""></div></div>
 									<div class="latest_content">
-										<div class="latest_title"><a href="course.jsp">How to Design a Logo a Beginners Course</a></div>
+										<div class="latest_title"><a href="<%=request.getContextPath()%>/course.jsp">How to Design a Logo a Beginners Course</a></div>
 										<div class="latest_price">Free</div>
 									</div>
 								</div>
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_2.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_2.jpg" alt=""></div></div>
 									<div class="latest_content">
-										<div class="latest_title"><a href="course.jsp">Photography for Beginners Masterclass</a></div>
+										<div class="latest_title"><a href="<%=request.getContextPath()%>/course.jsp">Photography for Beginners Masterclass</a></div>
 										<div class="latest_price">$170</div>
 									</div>
 								</div>
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_3.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_3.jpg" alt=""></div></div>
 									<div class="latest_content">
-										<div class="latest_title"><a href="course.jsp">The Secrets of Body Language</a></div>
+										<div class="latest_title"><a href="<%=request.getContextPath()%>/course.jsp">The Secrets of Body Language</a></div>
 										<div class="latest_price">$220</div>
 									</div>
 								</div>
@@ -477,7 +476,7 @@
 	<!-- Newsletter -->
 
 	<div class="newsletter">
-		<div class="newsletter_background" style="background-image:url(images/newsletter_background.jpg)"></div>
+		<div class="newsletter_background" style="background-image:url(<%=request.getContextPath()%>/images/newsletter_background.jpg)"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">

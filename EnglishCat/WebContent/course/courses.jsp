@@ -23,7 +23,9 @@
 <div class="super_container">
 
 <jsp:include page="/include/header.jsp"></jsp:include>
-	
+<script>
+	$( '.nav-courses' ).addClass('active');
+</script>
 	<!-- Home -->
 
 	<div class="home">
@@ -33,7 +35,7 @@
 					<div class="col">
 						<div class="breadcrumbs">
 							<ul>
-								<li><a href="index.jsp">Home</a></li>
+								<li><a href="<%=request.getContextPath()%>/index.jsp">Home</a></li>
 								<li>Courses</li>
 							</ul>
 						</div>
@@ -71,7 +73,7 @@
 								<div class="course">
 									<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_4.jpg" alt=""></div>
 									<div class="course_body">
-										<h3 class="course_title"><a href="course.jsp">Software Training</a></h3>
+										<h3 class="course_title"><a href="<%=request.getContextPath()%>/course.jsp">Software Training</a></h3>
 										<div class="course_teacher">Mr. John Taylor</div>
 										<div class="course_text">
 											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
@@ -98,7 +100,7 @@
 								<div class="course">
 									<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_5.jpg" alt=""></div>
 									<div class="course_body">
-										<h3 class="course_title"><a href="course.jsp">Developing Mobile Apps</a></h3>
+										<h3 class="course_title"><a href="<%=request.getContextPath()%>/course.jsp">Developing Mobile Apps</a></h3>
 										<div class="course_teacher">Ms. Lucius</div>
 										<div class="course_text">
 											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
@@ -125,7 +127,7 @@
 								<div class="course">
 									<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_6.jpg" alt=""></div>
 									<div class="course_body">
-										<h3 class="course_title"><a href="course.jsp">Starting a Startup</a></h3>
+										<h3 class="course_title"><a href="<%=request.getContextPath()%>/course.jsp">Starting a Startup</a></h3>
 										<div class="course_teacher">Mr. Charles</div>
 										<div class="course_text">
 											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
@@ -152,7 +154,7 @@
 								<div class="course">
 									<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_7.jpg" alt=""></div>
 									<div class="course_body">
-										<h3 class="course_title"><a href="course.jsp">Learn Basic German Fast</a></h3>
+										<h3 class="course_title"><a href="<%=request.getContextPath()%>/course.jsp">Learn Basic German Fast</a></h3>
 										<div class="course_teacher">Mr. John Taylor</div>
 										<div class="course_text">
 											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
@@ -179,7 +181,7 @@
 								<div class="course">
 									<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_8.jpg" alt=""></div>
 									<div class="course_body">
-										<h3 class="course_title"><a href="course.jsp">Business Groud Up</a></h3>
+										<h3 class="course_title"><a href="<%=request.getContextPath()%>/course.jsp">Business Groud Up</a></h3>
 										<div class="course_teacher">Ms. Lucius</div>
 										<div class="course_text">
 											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
@@ -206,7 +208,7 @@
 								<div class="course">
 									<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_9.jpg" alt=""></div>
 									<div class="course_body">
-										<h3 class="course_title"><a href="course.jsp">Java Technology</a></h3>
+										<h3 class="course_title"><a href="<%=request.getContextPath()%>/course.jsp">Java Technology</a></h3>
 										<div class="course_teacher">Mr. Charles</div>
 										<div class="course_text">
 											<p>Lorem ipsum dolor sit amet, consectetur adipi elitsed do eiusmod tempor</p>
@@ -283,7 +285,7 @@
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
 									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_1.jpg" alt=""></div></div>
 									<div class="latest_content">
-										<div class="latest_title"><a href="course.jsp">How to Design a Logo a Beginners Course</a></div>
+										<div class="latest_title"><a href="<%=request.getContextPath()%>/course.jsp">How to Design a Logo a Beginners Course</a></div>
 										<div class="latest_price">Free</div>
 									</div>
 								</div>
@@ -292,7 +294,7 @@
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
 									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_2.jpg" alt=""></div></div>
 									<div class="latest_content">
-										<div class="latest_title"><a href="course.jsp">Photography for Beginners Masterclass</a></div>
+										<div class="latest_title"><a href="<%=request.getContextPath()%>/course.jsp">Photography for Beginners Masterclass</a></div>
 										<div class="latest_price">$170</div>
 									</div>
 								</div>
@@ -301,7 +303,7 @@
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
 									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_3.jpg" alt=""></div></div>
 									<div class="latest_content">
-										<div class="latest_title"><a href="course.jsp">The Secrets of Body Language</a></div>
+										<div class="latest_title"><a href="<%=request.getContextPath()%>/course.jsp">The Secrets of Body Language</a></div>
 										<div class="latest_price">$220</div>
 									</div>
 								</div>
