@@ -48,12 +48,12 @@
 							</div>
 							<nav class="main_nav_contaner ml-auto">
 								<ul class="main_nav">
-									<li class="active"><a href="#">Home</a></li>
-									<li><a href="about.jsp">About</a></li>
-									<li><a href="courses.jsp">Courses</a></li>
-									<li><a href="blog.jsp">Blog</a></li>
+									<li class="active"><a href="<%=request.getContextPath()%>/index.jsp">Home</a></li>
+									<li><a href="<%=request.getContextPath()%>/about/about.jsp">About</a></li>
+									<li><a href="<%=request.getContextPath()%>/course/courses.jsp">Courses</a></li>
+									<li><a href="<%=request.getContextPath()%>/blog/blog.jsp">Blog</a></li>
 									<li><a href="#">Page</a></li>
-									<li><a href="contact.jsp">Contact</a></li>
+									<li><a href="<%=request.getContextPath()%>/contact/contact.jsp">Contact</a></li>
 								</ul>
 								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
 
@@ -104,12 +104,12 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="index.jsp">Home</a></li>
+				<li class="menu_mm"><a href="<%=request.getContextPath()%>/index.jsp">Home</a></li>
 				<li class="menu_mm"><a href="#">About</a></li>
 				<li class="menu_mm"><a href="#">Courses</a></li>
 				<li class="menu_mm"><a href="#">Blog</a></li>
 				<li class="menu_mm"><a href="#">Page</a></li>
-				<li class="menu_mm"><a href="contact.jsp">Contact</a></li>
+				<li class="menu_mm"><a href="<%=request.getContextPath()%>/contact.jsp">Contact</a></li>
 			</ul>
 		</nav>
 	</div>

@@ -38,25 +38,9 @@
 						<div class="container">
 							<div class="row">
 								<div class="col text-center">
-									<div class="home_slider_title">The Premium System Education</div>
-									<div class="home_slider_subtitle">Future Of Education Technology</div>
+									<div class="home_slider_title">You too can speak English!!</div>
+									<div class="home_slider_subtitle">이유있는 고객 만족 1위! 영어회화에 자신감을 심어주는 EnglishCat</div>
 									<div class="home_slider_form_container">
-										<form action="#" id="home_search_form_1" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
-											<div class="d-flex flex-row align-items-center justify-content-start">
-												<input type="search" class="home_search_input" placeholder="Keyword Search" required="required">
-												<select class="dropdown_item_select home_search_input">
-													<option>Category Courses</option>
-													<option>Category</option>
-													<option>Category</option>
-												</select>
-												<select class="dropdown_item_select home_search_input">
-													<option>Select Price Type</option>
-													<option>Price Type</option>
-													<option>Price Type</option>
-												</select>
-											</div>
-											<button type="submit" class="home_search_button">search</button>
-										</form>
 									</div>
 								</div>
 							</div>
@@ -74,22 +58,7 @@
 									<div class="home_slider_title">The Premium System Education</div>
 									<div class="home_slider_subtitle">Future Of Education Technology</div>
 									<div class="home_slider_form_container">
-										<form action="#" id="home_search_form_2" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
-											<div class="d-flex flex-row align-items-center justify-content-start">
-												<input type="search" class="home_search_input" placeholder="Keyword Search" required="required">
-												<select class="dropdown_item_select home_search_input">
-													<option>Category Courses</option>
-													<option>Category</option>
-													<option>Category</option>
-												</select>
-												<select class="dropdown_item_select home_search_input">
-													<option>Select Price Type</option>
-													<option>Price Type</option>
-													<option>Price Type</option>
-												</select>
-											</div>
-											<button type="submit" class="home_search_button">search</button>
-										</form>
+
 									</div>
 								</div>
 							</div>
@@ -107,22 +76,6 @@
 									<div class="home_slider_title">The Premium System Education</div>
 									<div class="home_slider_subtitle">Future Of Education Technology</div>
 									<div class="home_slider_form_container">
-										<form action="#" id="home_search_form_3" class="home_search_form d-flex flex-lg-row flex-column align-items-center justify-content-between">
-											<div class="d-flex flex-row align-items-center justify-content-start">
-												<input type="search" class="home_search_input" placeholder="Keyword Search" required="required">
-												<select class="dropdown_item_select home_search_input">
-													<option>Category Courses</option>
-													<option>Category</option>
-													<option>Category</option>
-												</select>
-												<select class="dropdown_item_select home_search_input">
-													<option>Select Price Type</option>
-													<option>Price Type</option>
-													<option>Price Type</option>
-												</select>
-											</div>
-											<button type="submit" class="home_search_button">search</button>
-										</form>
 									</div>
 								</div>
 							</div>
@@ -666,113 +619,8 @@
 		</div>
 	</div>
 
-	<!-- Footer -->
+<jsp:include page="/include/footer.jsp"></jsp:include>
 
-	<footer class="footer">
-		<div class="footer_background" style="background-image:url(images/footer_background.png)"></div>
-		<div class="container">
-			<div class="row footer_row">
-				<div class="col">
-					<div class="footer_content">
-						<div class="row">
-
-							<div class="col-lg-3 footer_col">
-					
-								<!-- Footer About -->
-								<div class="footer_section footer_about">
-									<div class="footer_logo_container">
-										<a href="#">
-											<div class="footer_logo_text">English<span>Cat</span></div>
-										</a>
-									</div>
-									<div class="footer_about_text">
-										<p>Lorem ipsum dolor sit ametium, consectetur adipiscing elit.</p>
-									</div>
-									<div class="footer_social">
-										<ul>
-											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>
-								</div>
-								
-							</div>
-
-							<div class="col-lg-3 footer_col">
-					
-								<!-- Footer Contact -->
-								<div class="footer_section footer_contact">
-									<div class="footer_title">Contact Us</div>
-									<div class="footer_contact_info">
-										<ul>
-											<li>Email: Info.deercreative@gmail.com</li>
-											<li>Phone:  +(88) 111 555 666</li>
-											<li>40 Baria Sreet 133/2 New York City, United States</li>
-										</ul>
-									</div>
-								</div>
-								
-							</div>
-
-							<div class="col-lg-3 footer_col">
-					
-								<!-- Footer links -->
-								<div class="footer_section footer_links">
-									<div class="footer_title">Contact Us</div>
-									<div class="footer_links_container">
-										<ul>
-											<li><a href="index.jsp">Home</a></li>
-											<li><a href="about.jsp">About</a></li>
-											<li><a href="contact.jsp">Contact</a></li>
-											<li><a href="#">Features</a></li>
-											<li><a href="courses.jsp">Courses</a></li>
-											<li><a href="#">Events</a></li>
-											<li><a href="#">Gallery</a></li>
-											<li><a href="#">FAQs</a></li>
-										</ul>
-									</div>
-								</div>
-								
-							</div>
-
-							<div class="col-lg-3 footer_col clearfix">
-					
-								<!-- Footer links -->
-								<div class="footer_section footer_mobile">
-									<div class="footer_title">Mobile</div>
-									<div class="footer_mobile_content">
-										<div class="footer_image"><a href="#"><img src="images/mobile_1.png" alt=""></a></div>
-										<div class="footer_image"><a href="#"><img src="images/mobile_2.png" alt=""></a></div>
-									</div>
-								</div>
-								
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row copyright_row">
-				<div class="col">
-					<div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
-						<div class="cr_text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-						<div class="ml-lg-auto cr_links">
-							<ul class="cr_list">
-								<li><a href="#">Copyright notification</a></li>
-								<li><a href="#">Terms of Use</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
 </div>
 
 <script src="js/jquery-3.2.1.min.js"></script>
@@ -788,4 +636,3 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/custom.js"></script>
 </body>
-</html>
