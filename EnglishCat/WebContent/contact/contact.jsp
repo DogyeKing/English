@@ -65,25 +65,40 @@
 			<div class="container">
 				<div class="row">
 
+
+		<!-- http://www.englishssam.com/NWS/level_01.asp 참조-->
 					<!-- Contact Form -->
 					<div class="col-lg-6">
 						<div class="contact_form">
-							<div class="contact_info_title">Contact Form</div>
+							<div class="contact_info_title">무료체험수업</div>
 							<form action="#" class="comment_form">
 								<div>
-									<div class="form_title">Name</div>
+									<div class="form_title">이름</div>
 									<input type="text" class="comment_input" required="required">
 								</div>
 								<div>
-									<div class="form_title">Email</div>
+								<div class="form_title">연락처</div>
 									<input type="text" class="comment_input" required="required">
 								</div>
 								<div>
-									<div class="form_title">Message</div>
+								<div class="form_title">이메일</div>
+									<input type="text" class="comment_input" required="required">
+								</div>
+								<div>
+								<div class="form_title">날짜</div>
+									<input type="text" class="comment_input" required="required">
+								</div>
+								
+								<div>
+									<div class="form_title">시간</div>
+									<input type="text" class="comment_input" required="required">
+								</div>
+								<div>
+									<div class="form_title">수업시작 희망일 선택</div>
 									<textarea class="comment_input comment_textarea" required="required"></textarea>
 								</div>
 								<div>
-									<button type="submit" class="comment_button trans_200">submit now</button>
+									<button type="submit" class="comment_button trans_200">무료체험수업 신청하기</button>
 								</div>
 							</form>
 						</div>

@@ -18,16 +18,18 @@
 									<li><div class="question">Have any questions?</div></li>
 									<li>
 										<i class="fa fa-phone" aria-hidden="true"></i>
-										<div>001-1234-88888</div>
+										<div>051-753-5600</div>
 									</li>
 									<li>
 										<i class="fa fa-envelope-o" aria-hidden="true"></i>
-										<div>info.deercreative@gmail.com</div>
+										<div>info.busanIT@gmail.com</div>
 									</li>
 								</ul>
 								<div class="top_bar_login ml-auto">
-									<div class="login_button"><a href="#">Register or Login</a></div>
+									<div class="login_button"><a href="<%=request.getContextPath()%>/login/login.jsp">Register or Login</a></div>	
 								</div>
+								
+								
 							</div>
 						</div>
 					</div>
@@ -47,13 +49,17 @@
 								</a>
 							</div>
 							<nav class="main_nav_contaner ml-auto">
+
 								<ul class="main_nav">
-									<li class=" nav-home"><a href="index.jsp">Home</a></li>
-									<li class=" nav-about"><a href="about/about.jsp">About</a></li>
-									<li class=" nav-courses"><a href="course/courses.jsp">Courses</a></li>
-									<li class=" nav-blog"><a href="blog/blog.jsp">Blog</a></li>
-									<li class=" nav-page"><a href="#">Page</a></li>
-									<li class=" nav-contact"><a href="contact/contact.jsp">Contact</a></li>
+									<li class="dropdown"><a class="dropdown" href="<%=request.getContextPath()%>/index.jsp">잉글리쉬캣</a></li>
+									<li class=""><a href="<%=request.getContextPath()%>/about/about.jsp">수강안내</a></li>
+									<li><a href="<%=request.getContextPath()%>/contact/contact.jsp">수강신청</a></li>
+									<li><a href="<%=request.getContextPath()%>/course/courses.jsp">수업과정</a></li>
+									<li><a href="#">커뮤니티</a></li>
+									<li><a href="<%=request.getContextPath()%>/blog/blog.jsp">마이페이지</a></li>
+								
+									
+									
 								</ul>
 								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
 
@@ -104,12 +110,13 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="index.jsp">Home</a></li>
+				<li class="menu_mm"><a href="<%=request.getContextPath()%>/index.jsp">Home</a></li>
 				<li class="menu_mm"><a href="#">About</a></li>
 				<li class="menu_mm"><a href="#">Courses</a></li>
 				<li class="menu_mm"><a href="#">Blog</a></li>
 				<li class="menu_mm"><a href="#">Page</a></li>
-				<li class="menu_mm"><a href="contact.jsp">Contact</a></li>
+				<li class="menu_mm"><a href="<%=request.getContextPath()%>/contact.jsp">Contact</a></li>
+				<li class="menu_mm"><a href="#">login</a></li>
 			</ul>
 		</nav>
 	</div>
