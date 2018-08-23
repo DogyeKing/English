@@ -18,7 +18,7 @@
 								<div class="footer_section footer_about">
 									<div class="footer_logo_container">
 										<a href="#">
-											<div class="footer_logo_text">English<span>Cat</span></div>
+											<div class="footer_logo_text">EnglishC<span>at</span></div>
 										</a>
 									</div>
 									<div class="footer_about_text">

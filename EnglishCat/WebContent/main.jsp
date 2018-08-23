@@ -9,13 +9,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Unicat project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/bootstrap4/bootstrap.min.css">
+<link href="<%=request.getContextPath()%>/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/responsive.css">
 </head>
 <body>
 
@@ -33,7 +33,7 @@
 				
 				<!-- Home Slider Item -->
 				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(<%=request.getContextPath()%>/images/home_slider_1.jpg)"></div>
 					<div class="home_slider_content">
 						<div class="container">
 							<div class="row">
@@ -50,7 +50,7 @@
 
 				<!-- Home Slider Item -->
 				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(<%=request.getContextPath()%>/images/home_slider_1.jpg)"></div>
 					<div class="home_slider_content">
 						<div class="container">
 							<div class="row">
@@ -68,7 +68,7 @@
 
 				<!-- Home Slider Item -->
 				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/home_slider_1.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(<%=request.getContextPath()%>/images/home_slider_1.jpg)"></div>
 					<div class="home_slider_content">
 						<div class="container">
 							<div class="row">
@@ -149,7 +149,7 @@
 	<!-- Popular Courses -->
 
 	<div class="courses">
-		<div class="section_background parallax-window" data-parallax="scroll" data-image-src="images/courses_background.jpg" data-speed="0.8"></div>
+		<div class="section_background parallax-window" data-parallax="scroll" data-image-src="<%=request.getContextPath()%>/images/courses_background.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -164,7 +164,7 @@
 				<!-- Course -->
 				<div class="col-lg-4 course_col">
 					<div class="course">
-						<div class="course_image"><img src="images/course_1.jpg" alt=""></div>
+						<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_1.jpg" alt=""></div>
 						<div class="course_body">
 							<h3 class="course_title"><a href="course.jsp">Software Training</a></h3>
 							<div class="course_teacher">Mr. John Taylor</div>
@@ -191,7 +191,7 @@
 				<!-- Course -->
 				<div class="col-lg-4 course_col">
 					<div class="course">
-						<div class="course_image"><img src="images/course_2.jpg" alt=""></div>
+						<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_2.jpg" alt=""></div>
 						<div class="course_body">
 							<h3 class="course_title"><a href="course.jsp">Developing Mobile Apps</a></h3>
 							<div class="course_teacher">Ms. Lucius</div>
@@ -218,7 +218,7 @@
 				<!-- Course -->
 				<div class="col-lg-4 course_col">
 					<div class="course">
-						<div class="course_image"><img src="images/course_3.jpg" alt=""></div>
+						<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_3.jpg" alt=""></div>
 						<div class="course_body">
 							<h3 class="course_title"><a href="course.jsp">Starting a Startup</a></h3>
 							<div class="course_teacher">Mr. Charles</div>
@@ -254,7 +254,7 @@
 	<!-- Counter -->
 
 	<div class="counter">
-		<div class="counter_background" style="background-image:url(images/counter_background.jpg)"></div>
+		<div class="counter_background" style="background-image:url(<%=request.getContextPath()%>/images/counter_background.jpg)"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -336,7 +336,7 @@
 				<!-- Event -->
 				<div class="col-lg-4 event_col">
 					<div class="event event_left">
-						<div class="event_image"><img src="images/event_1.jpg" alt=""></div>
+						<div class="event_image"><img src="<%=request.getContextPath()%>/images/event_1.jpg" alt=""></div>
 						<div class="event_body d-flex flex-row align-items-start justify-content-start">
 							<div class="event_date">
 								<div class="d-flex flex-column align-items-center justify-content-center trans_200">
@@ -361,7 +361,7 @@
 				<!-- Event -->
 				<div class="col-lg-4 event_col">
 					<div class="event event_mid">
-						<div class="event_image"><img src="images/event_2.jpg" alt=""></div>
+						<div class="event_image"><img src="<%=request.getContextPath()%>/images/event_2.jpg" alt=""></div>
 						<div class="event_body d-flex flex-row align-items-start justify-content-start">
 							<div class="event_date">
 								<div class="d-flex flex-column align-items-center justify-content-center trans_200">
@@ -386,7 +386,7 @@
 				<!-- Event -->
 				<div class="col-lg-4 event_col">
 					<div class="event event_right">
-						<div class="event_image"><img src="images/event_3.jpg" alt=""></div>
+						<div class="event_image"><img src="<%=request.getContextPath()%>/images/event_3.jpg" alt=""></div>
 						<div class="event_body d-flex flex-row align-items-start justify-content-start">
 							<div class="event_date">
 								<div class="d-flex flex-column align-items-center justify-content-center trans_200">
@@ -415,7 +415,7 @@
 	<!-- Team -->
 
 	<div class="team">
-		<div class="team_background parallax-window" data-parallax="scroll" data-image-src="images/team_background.jpg" data-speed="0.8"></div>
+		<div class="team_background parallax-window" data-parallax="scroll" data-image-src="<%=request.getContextPath()%>/images/team_background.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -430,7 +430,7 @@
 				<!-- Team Item -->
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_item">
-						<div class="team_image"><img src="images/team_1.jpg" alt=""></div>
+						<div class="team_image"><img src="<%=request.getContextPath()%>/images/team_1.jpg" alt=""></div>
 						<div class="team_body">
 							<div class="team_title"><a href="#">Jacke Masito</a></div>
 							<div class="team_subtitle">Marketing & Management</div>
@@ -448,7 +448,7 @@
 				<!-- Team Item -->
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_item">
-						<div class="team_image"><img src="images/team_2.jpg" alt=""></div>
+						<div class="team_image"><img src="<%=request.getContextPath()%>/images/team_2.jpg" alt=""></div>
 						<div class="team_body">
 							<div class="team_title"><a href="#">William James</a></div>
 							<div class="team_subtitle">Designer & Website</div>
@@ -466,7 +466,7 @@
 				<!-- Team Item -->
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_item">
-						<div class="team_image"><img src="images/team_3.jpg" alt=""></div>
+						<div class="team_image"><img src="<%=request.getContextPath()%>/images/team_3.jpg" alt=""></div>
 						<div class="team_body">
 							<div class="team_title"><a href="#">John Tyler</a></div>
 							<div class="team_subtitle">Quantum mechanics</div>
@@ -484,7 +484,7 @@
 				<!-- Team Item -->
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_item">
-						<div class="team_image"><img src="images/team_4.jpg" alt=""></div>
+						<div class="team_image"><img src="<%=request.getContextPath()%>/images/team_4.jpg" alt=""></div>
 						<div class="team_body">
 							<div class="team_title"><a href="#">Veronica Vahn</a></div>
 							<div class="team_subtitle">Math & Physics</div>
@@ -521,7 +521,7 @@
 					<!-- News Post Large -->
 					<div class="news_post_large_container">
 						<div class="news_post_large">
-							<div class="news_post_image"><img src="images/news_1.jpg" alt=""></div>
+							<div class="news_post_image"><img src="<%=request.getContextPath()%>/images/news_1.jpg" alt=""></div>
 							<div class="news_post_large_title"><a href="blog_single.jsp">Here’s What You Need to Know About Online Testing for the ACT and SAT</a></div>
 							<div class="news_post_meta">
 								<ul>
@@ -593,7 +593,7 @@
 	<!-- Newsletter -->
 
 	<div class="newsletter">
-		<div class="newsletter_background parallax-window" data-parallax="scroll" data-image-src="images/newsletter.jpg" data-speed="0.8"></div>
+		<div class="newsletter_background parallax-window" data-parallax="scroll" data-image-src="<%=request.getContextPath()%>/images/newsletter.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -623,16 +623,16 @@
 
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
-<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="<%=request.getContextPath()%>/js/jquery-3.2.1.min.js"></script>
+<script src="<%=request.getContextPath()%>/styles/bootstrap4/popper.js"></script>
+<script src="<%=request.getContextPath()%>/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/greensock/TweenMax.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/greensock/TimelineMax.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/greensock/animation.gsap.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/easing/easing.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="<%=request.getContextPath()%>/js/custom.js"></script>
 </body>

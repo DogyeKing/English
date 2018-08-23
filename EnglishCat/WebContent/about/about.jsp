@@ -9,14 +9,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Unicat project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/about.css">
-<link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/bootstrap4/bootstrap.min.css">
+<link href="<%=request.getContextPath()%>/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="<%=request.getContextPath()%>/plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/about.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/about_responsive.css">
 </head>
 <body>
 
@@ -159,8 +159,8 @@
 			<div class="row">
 				<div class="col">
 					<div class="section_title_container text-center">
-						<h2 class="section_title">Welcome To Unicat E-Learning</h2>
-						<div class="section_subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel gravida arcu Vestibulum</p></div>
+						<h2 class="section_title">Welcome To Englishcat E-Learning</h2>
+						<div class="section_subtitle"><p>이유있는 고객 만족 1위! 영어회화에 자신감을 심어주는 EnglishCat</p></div>
 					</div>
 				</div>
 			</div>
@@ -169,7 +169,7 @@
 				<!-- About Item -->
 				<div class="col-lg-4 about_col about_col_left">
 					<div class="about_item">
-						<div class="about_item_image"><img src="images/about_1.jpg" alt=""></div>
+						<div class="about_item_image"><img src="<%=request.getContextPath()%>/images/about_1.jpg" alt=""></div>
 						<div class="about_item_title"><a href="#">Our Stories</a></div>
 						<div class="about_item_text">
 							<p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim en consectet adipisi elit, sed do consectet adipisi elit, sed doadesg.</p>
@@ -180,7 +180,7 @@
 				<!-- About Item -->
 				<div class="col-lg-4 about_col about_col_middle">
 					<div class="about_item">
-						<div class="about_item_image"><img src="images/about_2.jpg" alt=""></div>
+						<div class="about_item_image"><img src="<%=request.getContextPath()%>/images/about_2.jpg" alt=""></div>
 						<div class="about_item_title"><a href="#">Our Mission</a></div>
 						<div class="about_item_text">
 							<p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim en consectet adipisi elit, sed do consectet adipisi elit, sed doadesg.</p>
@@ -191,7 +191,7 @@
 				<!-- About Item -->
 				<div class="col-lg-4 about_col about_col_right">
 					<div class="about_item">
-						<div class="about_item_image"><img src="images/about_3.jpg" alt=""></div>
+						<div class="about_item_image"><img src="<%=request.getContextPath()%>/images/about_3.jpg" alt=""></div>
 						<div class="about_item_title"><a href="#">Our Vision</a></div>
 						<div class="about_item_text">
 							<p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim en consectet adipisi elit, sed do consectet adipisi elit, sed doadesg.</p>
@@ -206,7 +206,7 @@
 	<!-- Feature -->
 
 	<div class="feature">
-		<div class="feature_background" style="background-image:url(images/courses_background.jpg)"></div>
+		<div class="feature_background" style="background-image:url(<%=request.getContextPath()%>/images/courses_background.jpg)"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -264,7 +264,7 @@
 				<!-- Feature Video -->
 				<div class="col-lg-6 feature_col">
 					<div class="feature_video d-flex flex-column align-items-center justify-content-center">
-						<div class="feature_video_background" style="background-image:url(images/video.jpg)"></div>
+						<div class="feature_video_background" style="background-image:url(<%=request.getContextPath()%>/images/video.jpg)"></div>
 						<a class="vimeo feature_video_button" href="https://player.vimeo.com/video/99340873?title=0" title="OH, PORTUGAL - IN 4K - Basti Hansen - Stock Footage">
 							<img src="images/play.png" alt="">
 						</a>
@@ -291,7 +291,7 @@
 				<!-- Team Item -->
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_item">
-						<div class="team_image"><img src="images/team_1.jpg" alt=""></div>
+						<div class="team_image"><img src="<%=request.getContextPath()%>/images/team_1.jpg" alt=""></div>
 						<div class="team_body">
 							<div class="team_title"><a href="#">Jacke Masito</a></div>
 							<div class="team_subtitle">Marketing & Management</div>
@@ -309,7 +309,7 @@
 				<!-- Team Item -->
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_item">
-						<div class="team_image"><img src="images/team_2.jpg" alt=""></div>
+						<div class="team_image"><img src="<%=request.getContextPath()%>/images/team_2.jpg" alt=""></div>
 						<div class="team_body">
 							<div class="team_title"><a href="#">William James</a></div>
 							<div class="team_subtitle">Designer & Website</div>
@@ -327,7 +327,7 @@
 				<!-- Team Item -->
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_item">
-						<div class="team_image"><img src="images/team_3.jpg" alt=""></div>
+						<div class="team_image"><img src="<%=request.getContextPath()%>/images/team_3.jpg" alt=""></div>
 						<div class="team_body">
 							<div class="team_title"><a href="#">John Tyler</a></div>
 							<div class="team_subtitle">Quantum mechanics</div>
@@ -345,7 +345,7 @@
 				<!-- Team Item -->
 				<div class="col-lg-3 col-md-6 team_col">
 					<div class="team_item">
-						<div class="team_image"><img src="images/team_4.jpg" alt=""></div>
+						<div class="team_image"><img src="<%=request.getContextPath()%>/images/team_4.jpg" alt=""></div>
 						<div class="team_body">
 							<div class="team_title"><a href="#">Veronica Vahn</a></div>
 							<div class="team_subtitle">Math & Physics</div>
@@ -367,7 +367,7 @@
 	<!-- Counter -->
 
 	<div class="counter">
-		<div class="counter_background" style="background-image:url(images/counter_background.jpg)"></div>
+		<div class="counter_background" style="background-image:url(<%=request.getContextPath()%>/images/counter_background.jpg)"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
@@ -472,17 +472,17 @@
 
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
-<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
-<script src="js/about.js"></script>
+<script src="<%=request.getContextPath()%>/js/jquery-3.2.1.min.js"></script>
+<script src="<%=request.getContextPath()%>/styles/bootstrap4/popper.js"></script>
+<script src="<%=request.getContextPath()%>/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/greensock/TweenMax.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/greensock/TimelineMax.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/greensock/animation.gsap.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/easing/easing.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="<%=request.getContextPath()%>/js/about.js"></script>
 </body>

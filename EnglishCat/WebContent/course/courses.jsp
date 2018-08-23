@@ -9,14 +9,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Unicat project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/courses.css">
-<link rel="stylesheet" type="text/css" href="styles/courses_responsive.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/bootstrap4/bootstrap.min.css">
+<link href="<%=request.getContextPath()%>/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="<%=request.getContextPath()%>/plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/courses.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/courses_responsive.css">
 </head>
 <body>
 
@@ -69,7 +69,7 @@
 							<!-- Course -->
 							<div class="col-lg-6 course_col">
 								<div class="course">
-									<div class="course_image"><img src="images/course_4.jpg" alt=""></div>
+									<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_4.jpg" alt=""></div>
 									<div class="course_body">
 										<h3 class="course_title"><a href="course.jsp">Software Training</a></h3>
 										<div class="course_teacher">Mr. John Taylor</div>
@@ -96,7 +96,7 @@
 							<!-- Course -->
 							<div class="col-lg-6 course_col">
 								<div class="course">
-									<div class="course_image"><img src="images/course_5.jpg" alt=""></div>
+									<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_5.jpg" alt=""></div>
 									<div class="course_body">
 										<h3 class="course_title"><a href="course.jsp">Developing Mobile Apps</a></h3>
 										<div class="course_teacher">Ms. Lucius</div>
@@ -123,7 +123,7 @@
 							<!-- Course -->
 							<div class="col-lg-6 course_col">
 								<div class="course">
-									<div class="course_image"><img src="images/course_6.jpg" alt=""></div>
+									<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_6.jpg" alt=""></div>
 									<div class="course_body">
 										<h3 class="course_title"><a href="course.jsp">Starting a Startup</a></h3>
 										<div class="course_teacher">Mr. Charles</div>
@@ -150,7 +150,7 @@
 							<!-- Course -->
 							<div class="col-lg-6 course_col">
 								<div class="course">
-									<div class="course_image"><img src="images/course_7.jpg" alt=""></div>
+									<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_7.jpg" alt=""></div>
 									<div class="course_body">
 										<h3 class="course_title"><a href="course.jsp">Learn Basic German Fast</a></h3>
 										<div class="course_teacher">Mr. John Taylor</div>
@@ -177,7 +177,7 @@
 							<!-- Course -->
 							<div class="col-lg-6 course_col">
 								<div class="course">
-									<div class="course_image"><img src="images/course_8.jpg" alt=""></div>
+									<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_8.jpg" alt=""></div>
 									<div class="course_body">
 										<h3 class="course_title"><a href="course.jsp">Business Groud Up</a></h3>
 										<div class="course_teacher">Ms. Lucius</div>
@@ -204,7 +204,7 @@
 							<!-- Course -->
 							<div class="col-lg-6 course_col">
 								<div class="course">
-									<div class="course_image"><img src="images/course_9.jpg" alt=""></div>
+									<div class="course_image"><img src="<%=request.getContextPath()%>/images/course_9.jpg" alt=""></div>
 									<div class="course_body">
 										<h3 class="course_title"><a href="course.jsp">Java Technology</a></h3>
 										<div class="course_teacher">Mr. Charles</div>
@@ -281,7 +281,7 @@
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_1.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_1.jpg" alt=""></div></div>
 									<div class="latest_content">
 										<div class="latest_title"><a href="course.jsp">How to Design a Logo a Beginners Course</a></div>
 										<div class="latest_price">Free</div>
@@ -290,7 +290,7 @@
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_2.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_2.jpg" alt=""></div></div>
 									<div class="latest_content">
 										<div class="latest_title"><a href="course.jsp">Photography for Beginners Masterclass</a></div>
 										<div class="latest_price">$170</div>
@@ -299,7 +299,7 @@
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_3.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_3.jpg" alt=""></div></div>
 									<div class="latest_content">
 										<div class="latest_title"><a href="course.jsp">The Secrets of Body Language</a></div>
 										<div class="latest_price">$220</div>
@@ -316,38 +316,38 @@
 								<ul class="gallery_items d-flex flex-row align-items-start justify-content-between flex-wrap">
 									<li class="gallery_item">
 										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="images/gallery_1_large.jpg">
-											<img src="images/gallery_1.jpg" alt="">
+										<a class="colorbox" href="<%=request.getContextPath()%>/images/gallery_1_large.jpg">
+											<img src="<%=request.getContextPath()%>/images/gallery_1.jpg" alt="">
 										</a>
 									</li>
 									<li class="gallery_item">
 										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="images/gallery_2_large.jpg">
-											<img src="images/gallery_2.jpg" alt="">
+										<a class="colorbox" href="<%=request.getContextPath()%>/images/gallery_2_large.jpg">
+											<img src="<%=request.getContextPath()%>/images/gallery_2.jpg" alt="">
 										</a>
 									</li>
 									<li class="gallery_item">
 										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="images/gallery_3_large.jpg">
-											<img src="images/gallery_3.jpg" alt="">
+										<a class="colorbox" href="<%=request.getContextPath()%>/images/gallery_3_large.jpg">
+											<img src="<%=request.getContextPath()%>/images/gallery_3.jpg" alt="">
 										</a>
 									</li>
 									<li class="gallery_item">
 										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="images/gallery_4_large.jpg">
-											<img src="images/gallery_4.jpg" alt="">
+										<a class="colorbox" href="<%=request.getContextPath()%>/images/gallery_4_large.jpg">
+											<img src="<%=request.getContextPath()%>/images/gallery_4.jpg" alt="">
 										</a>
 									</li>
 									<li class="gallery_item">
 										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="images/gallery_5_large.jpg">
-											<img src="images/gallery_5.jpg" alt="">
+										<a class="colorbox" href="<%=request.getContextPath()%>/images/gallery_5_large.jpg">
+											<img src="<%=request.getContextPath()%>/images/gallery_5.jpg" alt="">
 										</a>
 									</li>
 									<li class="gallery_item">
 										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="images/gallery_6_large.jpg">
-											<img src="images/gallery_6.jpg" alt="">
+										<a class="colorbox" href="<%=request.getContextPath()%>/images/gallery_6_large.jpg">
+											<img src="<%=request.getContextPath()%>/images/gallery_6.jpg" alt="">
 										</a>
 									</li>
 								</ul>
@@ -372,7 +372,7 @@
 						<!-- Banner -->
 						<div class="sidebar_section">
 							<div class="sidebar_banner d-flex flex-column align-items-center justify-content-center text-center">
-								<div class="sidebar_banner_background" style="background-image:url(images/banner_1.jpg)"></div>
+								<div class="sidebar_banner_background" style="background-image:url(<%=request.getContextPath()%>/images/banner_1.jpg)"></div>
 								<div class="sidebar_banner_overlay"></div>
 								<div class="sidebar_banner_content">
 									<div class="banner_title">Free Book</div>
@@ -389,7 +389,7 @@
 	<!-- Newsletter -->
 
 	<div class="newsletter">
-		<div class="newsletter_background parallax-window" data-parallax="scroll" data-image-src="images/newsletter.jpg" data-speed="0.8"></div>
+		<div class="newsletter_background parallax-window" data-parallax="scroll" data-image-src="<%=request.getContextPath()%>/images/newsletter.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -418,12 +418,12 @@
 	<jsp:include page="/include/footer.jsp"></jsp:include>
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
-<script src="js/courses.js"></script>
+<script src="<%=request.getContextPath()%>/js/jquery-3.2.1.min.js"></script>
+<script src="<%=request.getContextPath()%>/styles/bootstrap4/popper.js"></script>
+<script src="<%=request.getContextPath()%>/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/easing/easing.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="<%=request.getContextPath()%>/js/courses.js"></script>
 </body>

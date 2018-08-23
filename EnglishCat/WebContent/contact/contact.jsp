@@ -9,10 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Unicat project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="styles/contact.css">
-<link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/bootstrap4/bootstrap.min.css">
+<link href="<%=request.getContextPath()%>/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/contact.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/contact_responsive.css">
 </head>
 <body>
 
@@ -122,7 +122,7 @@
 	<!-- Newsletter -->
 
 	<div class="newsletter">
-		<div class="newsletter_background" style="background-image:url(images/newsletter_background.jpg)"></div>
+		<div class="newsletter_background" style="background-image:url(<%=request.getContextPath()%>/images/newsletter_background.jpg)"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -153,12 +153,12 @@
 <jsp:include page="/include/footer.jsp"></jsp:include>
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
-<script src="plugins/marker_with_label/marker_with_label.js"></script>
-<script src="js/contact.js"></script>
+<script src="<%=request.getContextPath()%>/js/jquery-3.2.1.min.js"></script>
+<script src="<%=request.getContextPath()%>/styles/bootstrap4/popper.js"></script>
+<script src="<%=request.getContextPath()%>/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/easing/easing.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="<%=request.getContextPath()%>/https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
+<script src="<%=request.getContextPath()%>/plugins/marker_with_label/marker_with_label.js"></script>
+<script src="<%=request.getContextPath()%>/js/contact.js"></script>
 </body>

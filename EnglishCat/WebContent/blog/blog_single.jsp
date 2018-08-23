@@ -9,11 +9,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Unicat project">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="styles/blog_single.css">
-<link rel="stylesheet" type="text/css" href="styles/blog_single_responsive.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/bootstrap4/bootstrap.min.css">
+<link href="<%=request.getContextPath()%>/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="<%=request.getContextPath()%>/plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/blog_single.css">
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/blog_single_responsive.css">
 </head>
 <body>
 
@@ -57,7 +57,7 @@
 								<li>By <a href="#">admin</a></li>
 							</ul>
 						</div>
-						<div class="blog_image"><img src="images/blog_single.jpg" alt=""></div>
+						<div class="blog_image"><img src="<%=request.getContextPath()%>/images/blog_single.jpg" alt=""></div>
 						<p>Times Insider delivers behind-the-scenes insights into how news, features and opinion come together at The New York Times.Before I could spend the night in my younger sisterâs dorm room at Antioch College in Yellow Springs, Ohio â before I could read the spines of her textbooks or drink a disgusting but lovingly prepared vodka/sparkling wine/Red Bull â I had to report to security:</p>
 						<div class="blog_quote d-flex flex-row align-items-center justify-content-start">
 							<i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -69,8 +69,8 @@
 						<p>I followed up with for the video told me that being sexual with an Antioch student is different from being sexual with someone else. They spoke of a common language everyone is taught beginning at orientation, so that when one student starts asking questions of another student in the midst of sexual activity, it doesnât seem so out there.</p>
 						<div class="blog_images">
 							<div class="row">
-								<div class="col-lg-6 blog_images_col"><div class="blog_image_small"><img src="images/blog_images_1.jpg" alt=""></div></div>
-								<div class="col-lg-6 blog_images_col"><div class="blog_image_small"><img src="images/blog_images_2.jpg" alt=""></div></div>
+								<div class="col-lg-6 blog_images_col"><div class="blog_image_small"><img src="<%=request.getContextPath()%>/images/blog_images_1.jpg" alt=""></div></div>
+								<div class="col-lg-6 blog_images_col"><div class="blog_image_small"><img src="<%=request.getContextPath()%>/images/blog_images_2.jpg" alt=""></div></div>
 							</div>
 						</div>
 						<p>But what is it like to be an 18-year-old and have the expectation set that you will talk during sex? I, for one, have never been part of a community with that expectation. Spending time at Antiochâs orientation, I thought about how that might change your sexual interactions for the rest of your life.</p>
@@ -103,7 +103,7 @@
 						<ul class="comments_list">
 							<li>
 								<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
-									<div class="comment_image"><div><img src="images/comment_1.jpg" alt=""></div></div>
+									<div class="comment_image"><div><img src="<%=request.getContextPath()%>/images/comment_1.jpg" alt=""></div></div>
 									<div class="comment_content">
 										<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
 											<div class="comment_author"><a href="#">Jennifer Aniston</a></div>
@@ -122,7 +122,7 @@
 								<ul>
 									<li>
 										<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
-											<div class="comment_image"><div><img src="images/comment_2.jpg" alt=""></div></div>
+											<div class="comment_image"><div><img src="<%=request.getContextPath()%>/images/comment_2.jpg" alt=""></div></div>
 											<div class="comment_content">
 												<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
 													<div class="comment_author"><a href="#">John Smith</a></div>
@@ -143,7 +143,7 @@
 							</li>
 							<li>
 								<div class="comment_item d-flex flex-row align-items-start jutify-content-start">
-									<div class="comment_image"><div><img src="images/comment_3.jpg" alt=""></div></div>
+									<div class="comment_image"><div><img src="<%=request.getContextPath()%>/images/comment_3.jpg" alt=""></div></div>
 									<div class="comment_content">
 										<div class="comment_title_container d-flex flex-row align-items-center justify-content-start">
 											<div class="comment_author"><a href="#">Jane Austen</a></div>
@@ -217,7 +217,7 @@
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_1.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_1.jpg" alt=""></div></div>
 									<div class="latest_content">
 										<div class="latest_title"><a href="course.jsp">How to Design a Logo a Beginners Course</a></div>
 										<div class="latest_date">november 11, 2017</div>
@@ -226,7 +226,7 @@
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_2.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_2.jpg" alt=""></div></div>
 									<div class="latest_content">
 										<div class="latest_title"><a href="course.jsp">Photography for Beginners Masterclass</a></div>
 										<div class="latest_date">november 11, 2017</div>
@@ -235,7 +235,7 @@
 
 								<!-- Latest Course -->
 								<div class="latest d-flex flex-row align-items-start justify-content-start">
-									<div class="latest_image"><div><img src="images/latest_3.jpg" alt=""></div></div>
+									<div class="latest_image"><div><img src="<%=request.getContextPath()%>/images/latest_3.jpg" alt=""></div></div>
 									<div class="latest_content">
 										<div class="latest_title"><a href="course.jsp">The Secrets of Body Language</a></div>
 										<div class="latest_date">november 11, 2017</div>
@@ -252,38 +252,38 @@
 								<ul class="gallery_items d-flex flex-row align-items-start justify-content-between flex-wrap">
 									<li class="gallery_item">
 										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="images/gallery_1_large.jpg">
-											<img src="images/gallery_1.jpg" alt="">
+										<a class="colorbox" href="<%=request.getContextPath()%>/images/gallery_1_large.jpg">
+											<img src="<%=request.getContextPath()%>/images/gallery_1.jpg" alt="">
 										</a>
 									</li>
 									<li class="gallery_item">
 										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="images/gallery_2_large.jpg">
-											<img src="images/gallery_2.jpg" alt="">
+										<a class="colorbox" href="<%=request.getContextPath()%>/images/gallery_2_large.jpg">
+											<img src="<%=request.getContextPath()%>/images/gallery_2.jpg" alt="">
 										</a>
 									</li>
 									<li class="gallery_item">
 										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="images/gallery_3_large.jpg">
-											<img src="images/gallery_3.jpg" alt="">
+										<a class="colorbox" href="<%=request.getContextPath()%>/images/gallery_3_large.jpg">
+											<img src="<%=request.getContextPath()%>/images/gallery_3.jpg" alt="">
 										</a>
 									</li>
 									<li class="gallery_item">
 										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="images/gallery_4_large.jpg">
-											<img src="images/gallery_4.jpg" alt="">
+										<a class="colorbox" href="<%=request.getContextPath()%>/images/gallery_4_large.jpg">
+											<img src="<%=request.getContextPath()%>/images/gallery_4.jpg" alt="">
 										</a>
 									</li>
 									<li class="gallery_item">
 										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="images/gallery_5_large.jpg">
-											<img src="images/gallery_5.jpg" alt="">
+										<a class="colorbox" href="<%=request.getContextPath()%>/images/gallery_5_large.jpg">
+											<img src="<%=request.getContextPath()%>/images/gallery_5.jpg" alt="">
 										</a>
 									</li>
 									<li class="gallery_item">
 										<div class="gallery_item_overlay d-flex flex-column align-items-center justify-content-center">+</div>
-										<a class="colorbox" href="images/gallery_6_large.jpg">
-											<img src="images/gallery_6.jpg" alt="">
+										<a class="colorbox" href="<%=request.getContextPath()%>/images/gallery_6_large.jpg">
+											<img src="<%=request.getContextPath()%>/images/gallery_6.jpg" alt="">
 										</a>
 									</li>
 								</ul>
@@ -308,7 +308,7 @@
 						<!-- Banner -->
 						<div class="sidebar_section">
 							<div class="sidebar_banner d-flex flex-column align-items-center justify-content-center text-center">
-								<div class="sidebar_banner_background" style="background-image:url(images/banner_1.jpg)"></div>
+								<div class="sidebar_banner_background" style="background-image:url(<%=request.getContextPath()%>/images/banner_1.jpg)"></div>
 								<div class="sidebar_banner_overlay"></div>
 								<div class="sidebar_banner_content">
 									<div class="banner_title">Free Book</div>
@@ -326,7 +326,7 @@
 	<!-- Newsletter -->
 
 	<div class="newsletter">
-		<div class="newsletter_background" style="background-image:url(images/newsletter_background.jpg)"></div>
+		<div class="newsletter_background" style="background-image:url(<%=request.getContextPath()%>/images/newsletter_background.jpg)"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -357,11 +357,11 @@
 <jsp:include page="/include/footer.jsp"></jsp:include>
 </div>
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
-<script src="js/blog_single.js"></script>
+<script src="<%=request.getContextPath()%>/js/jquery-3.2.1.min.js"></script>
+<script src="<%=request.getContextPath()%>/styles/bootstrap4/popper.js"></script>
+<script src="<%=request.getContextPath()%>/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/easing/easing.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="<%=request.getContextPath()%>/plugins/colorbox/jquery.colorbox-min.js"></script>
+<script src="<%=request.getContextPath()%>/js/blog_single.js"></script>
 </body>
