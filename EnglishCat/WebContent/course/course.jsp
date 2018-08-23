@@ -23,7 +23,6 @@
 <div class="super_container">
 
 <jsp:include page="/include/header.jsp"></jsp:include>
-	
 	<!-- Home -->
 
 	<div class="home">

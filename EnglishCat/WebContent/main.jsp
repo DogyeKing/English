@@ -16,13 +16,16 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 </head>
 <body>
 
 <div class="super_container">
-
 <jsp:include page="/include/header.jsp"></jsp:include>
-
+<script>
+	$( '.nav-home' ).addClass('active');
+</script>
 	<!-- Home -->
 
 	<div class="home">
