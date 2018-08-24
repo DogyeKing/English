@@ -417,6 +417,29 @@ section
 {
 
 }
+
+.main_nav_contaner .main_nav_items {
+	display: inline-block !important;	
+}
+
+.main_nav_contaner .dropdown-menu {
+	margin: 0;
+	right: 0;
+	left: initial;
+	top: 50px;	
+	
+	/* 이벤트 구현 후 삭제하세요 */
+	display: block;
+}
+
+.main_nav_contaner .drop-item-wrap {
+	display: inline-block;	
+}
+
+.main_nav {
+	display: inline-block;
+}
+
 .main_nav,
 .search_button,
 .shopping_cart
