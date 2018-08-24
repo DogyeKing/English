@@ -14,13 +14,17 @@
 <link href="<%=request.getContextPath()%>/plugins/video-js/video-js.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/blog.css">
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/blog_responsive.css">
+
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 </head>
 <body>
 
 <div class="super_container">
 
 <jsp:include page="/include/header.jsp"></jsp:include>
-	
+	<script>
+		$( '.nav-account' ).addClass('active');
+	</script>
 	<!-- Home -->
 
 	<div class="home">

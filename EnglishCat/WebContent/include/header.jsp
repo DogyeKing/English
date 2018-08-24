@@ -51,12 +51,12 @@
 							<nav class="main_nav_contaner ml-auto">
 
 								<ul class="main_nav">
-									<li class="dropdown"><a class="dropdown" href="<%=request.getContextPath()%>/index.jsp">잉글리쉬캣</a></li>
-									<li class=""><a href="<%=request.getContextPath()%>/about/about.jsp">수강안내</a></li>
-									<li><a href="<%=request.getContextPath()%>/contact/contact.jsp">수강신청</a></li>
-									<li><a href="<%=request.getContextPath()%>/course/courses.jsp">수업과정</a></li>
-									<li><a href="#">커뮤니티</a></li>
-									<li><a href="<%=request.getContextPath()%>/blog/blog.jsp">마이페이지</a></li>
+									<li class="nav-home"><a class="dropdown" href="<%=request.getContextPath()%>/index.jsp">잉글리쉬캣</a></li>
+									<li class="nav-about"><a href="<%=request.getContextPath()%>/about/about.jsp">수강안내</a></li>
+									<li class="nav-contact"><a href="<%=request.getContextPath()%>/contact/contact.jsp">수강신청</a></li>
+									<li class="nav-courses"><a href="<%=request.getContextPath()%>/course/courses.jsp">수업과정</a></li>
+									<li class="nav-community"><a href="#">커뮤니티</a></li>
+									<li class="nav-account"><a href="<%=request.getContextPath()%>/blog/blog.jsp">마이페이지</a></li>
 								
 									
 									
