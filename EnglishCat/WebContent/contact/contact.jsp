@@ -13,13 +13,17 @@
 <link href="<%=request.getContextPath()%>/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/contact.css">
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/contact_responsive.css">
+
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 </head>
 <body>
 
 <div class="super_container">
 
 <jsp:include page="/include/header.jsp"></jsp:include>
-
+	<script>
+		$( '.nav-contact' ).addClass('active');
+	</script>
 	<!-- Home -->
 
 	<div class="home">

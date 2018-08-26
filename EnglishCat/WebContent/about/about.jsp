@@ -17,6 +17,8 @@
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/about.css">
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/about_responsive.css">
+
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 </head>
 <body>
 
@@ -24,7 +26,9 @@
 <!-- Header -->
 
 	<jsp:include page="/include/header.jsp"></jsp:include>
-
+<script>
+	$( '.nav-about' ).addClass('active');
+</script>
 	
 	<!-- Home -->
 

@@ -49,18 +49,53 @@
 								</a>
 							</div>
 							<nav class="main_nav_contaner ml-auto">
-
-								<ul class="main_nav">
-									<li class="dropdown"><a class="dropdown" href="<%=request.getContextPath()%>/index.jsp">잉글리쉬캣</a></li>
-									<li class=""><a href="<%=request.getContextPath()%>/about/about.jsp">수강안내</a></li>
-									<li><a href="<%=request.getContextPath()%>/contact/contact.jsp">수강신청</a></li>
-									<li><a href="<%=request.getContextPath()%>/course/courses.jsp">수업과정</a></li>
-									<li><a href="#">커뮤니티</a></li>
-									<li><a href="<%=request.getContextPath()%>/blog/blog.jsp">마이페이지</a></li>
+								<div class="main_nav_items">
+									<ul class="main_nav">
+										<li class="nav-home"><a class="dropdown" href="<%=request.getContextPath()%>/index.jsp">잉글리쉬캣</a></li>
+										<li class="nav-about"><a href="<%=request.getContextPath()%>/about/about.jsp">수강안내</a></li>
+										<li class="nav-contact"><a href="<%=request.getContextPath()%>/contact/contact.jsp">수강신청</a></li>
+										<li class="nav-courses"><a href="<%=request.getContextPath()%>/course/courses.jsp">수업과정</a></li>
+										<li class="nav-community"><a href="#">커뮤니티</a></li>
+										<li class="nav-account"><a href="<%=request.getContextPath()%>/blog/blog.jsp">마이페이지</a></li>					
+									</ul>
+									<div class="dropdown-menu">
+									    <div class="drop-item-wrap">
+											<a class="dropdown-item" href="#">잉글리쉬캣?</a>
+											<a class="dropdown-item" href="#"></a>
+											<a class="dropdown-item" href="#"></a>
+										</div>
+										<div class="drop-item-wrap">
+											<a class="dropdown-item" href="#">수강료안내</a>
+											<a class="dropdown-item" href="#">Skype설치</a>
+											<a class="dropdown-item" href="#">스카이프<br>화상영어장점</a>
+											
+										</div>
+												<div class="drop-item-wrap">
+											<a class="dropdown-item" href="#">주니어과정</a>
+											<a class="dropdown-item" href="#">시니어과정</a>
+											<a class="dropdown-item" href="#">교재안내</a>
+											<a class="dropdown-item" href="#">강사소개</a>
+										</div>
+												<div class="drop-item-wrap">
+											<a class="dropdown-item" href="#">공지사항</a>
+											<a class="dropdown-item" href="#">FAQ</a>
+											<a class="dropdown-item" href="#">자유게시판</a>
+											<a class="dropdown-item" href="#">수강후기</a>
+											<a class="dropdown-item" href="#">자주쓰이는표현</a>
+										</div>
+												<div class="drop-item-wrap">
+											<a class="dropdown-item" href="#">회원정보</a>
+											<a class="dropdown-item" href="#">로그아웃</a>
+											<a class="dropdown-item" href="#">레벨테스트결과</a>
+										</div>
+												<div class="drop-item-wrap">
+											<a class="dropdown-item" href="#">세글자</a>
+											<a class="dropdown-item" href="#">네글자</a>
+											<a class="dropdown-item" href="#">다섯글자</a>
+										</div>
+									</div>
+								</div>
 								
-									
-									
-								</ul>
 								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
 
 								<!-- Hamburger -->

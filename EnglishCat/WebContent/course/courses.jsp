@@ -17,6 +17,7 @@
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/courses.css">
 <link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/styles/courses_responsive.css">
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 </head>
 <body>
 
