@@ -164,9 +164,31 @@ public class BoardDAO {
 		} catch (Exception ex) {
 			System.out.println("setReadCountupdate 에러 :" + ex);
 		}
-		
 		return updateCount;
+
+	}
 	
-	
+	public boolean isArticleWriter (int board_num, String pass) {
+		
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		String SQL = "SELECT * FROM BOARD WHERE BOARD_NUM = ?";
+		boolean isWriter = false;
+		
+		try {
+			pstmt = conn.prepareStatement(SQL);
+			pstmt.setInt(1, board_num);
+			rs = pstmt.executeQuery();
+			rs.next();
+			
+			if(pass.equals(rs.getString("BOARD_PASS"))) {
+				isWriter = true;
+			}
+		} catch (Exception ex) {
+			System.out.println("isBoardWriter 에러 : " + ex);
+		} finally {
+			DBManager.close(pstmt);
+			
+		} return isWriter;
 	}
 }

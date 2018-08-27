@@ -51,6 +51,14 @@ public class DBManager {
 		}
 	}
 	
+	public static void close(PreparedStatement pstmt) {
+		try {
+			pstmt.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
 	public static void commit(Connection conn) {
 		try {
 			conn.commit();
